@@ -8,7 +8,7 @@ export default function Dessert(){
         <>
             <Image src={dessertBackground} alt="some pieces of blueberry cake" layout="responsive" width={2400} height={1599}/>
             <h2>Desserts</h2>
-            <p>Sweet...</p>
+            <p>Nice and sweet.</p>
         </>
     )
 }
