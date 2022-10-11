@@ -1,7 +1,7 @@
 export default function Dessert(){
     return (
         <>
-            <h1>Desserts</h1>
+            <h2>Desserts</h2>
             <p>Sweet...</p>
         </>
     )
