@@ -5,5 +5,8 @@ const nextConfig = {
   images: {
     domains: ["unsplash.com"],
   },
-}
-module.exports = nextConfig
+  compiler: {
+    styledComponents: true,
+  },
+};
+module.exports = nextConfig;
