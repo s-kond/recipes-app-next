@@ -15,8 +15,8 @@ export default function Header() {
         <Link href="/Veggie" passHref>
           <Anchor active={pathname === "/Veggie"}>Veggie</Anchor>
         </Link>
-        <Link href="/Dessert" passHref>
-          <Anchor active={pathname === "/Dessert"}>Desserts</Anchor>
+        <Link href="/desserts" passHref>
+          <Anchor active={pathname === "/desserts"}>Desserts</Anchor>
         </Link>
       </StyledNav>
     </HeaderContainer>
@@ -25,6 +25,7 @@ export default function Header() {
 
 const HeaderContainer = styled.div`
   width: 100%;
+  background-color: black;
   border-bottom: 2px dotted grey;
   display: flex;
   align-items: center;
@@ -34,7 +35,7 @@ const HeaderContainer = styled.div`
 
 const StyledNav = styled.nav`
   display: flex;
-  gap: 10px;
+  gap: 18px;
 `;
 
 const Anchor = styled.a`

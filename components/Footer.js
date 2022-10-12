@@ -10,6 +10,7 @@ export default function Footer() {
 
 const FooterContainer = styled.div`
   display: block;
+  background-color: black;
   width: 100%;
   padding: 20px;
   border-top: 2px dotted grey;
