@@ -28,20 +28,6 @@ a {
     background: black;
   }
 }
-
-.footer {
-  width: 100%;
-  position: fixed;
-  bottom: 0;
-  padding: 20px;
-  border-top: 2px dotted grey;
-}
-
-.header {
-  width: 100%;
-  border-bottom: 2px dotted grey;
-}
-
 `;
 
 export default GlobalStyle;

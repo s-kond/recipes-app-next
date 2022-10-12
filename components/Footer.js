@@ -9,9 +9,8 @@ export default function Footer() {
 }
 
 const FooterContainer = styled.div`
+  display: block;
   width: 100%;
-  position: fixed;
-  bottom: 0;
   padding: 20px;
   border-top: 2px dotted grey;
 `;
