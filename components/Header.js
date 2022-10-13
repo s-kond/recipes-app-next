@@ -31,6 +31,10 @@ const HeaderContainer = styled.div`
   align-items: center;
   padding: 0 20px;
   justify-content: space-between;
+
+  @media (prefers-color-scheme: light) {
+    background-color: white;
+  }
 `;
 
 const StyledNav = styled.nav`

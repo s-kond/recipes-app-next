@@ -14,4 +14,8 @@ const FooterContainer = styled.div`
   width: 100%;
   padding: 20px;
   border-top: 2px dotted grey;
+
+  @media (prefers-color-scheme: light) {
+    background-color: white;
+  }
 `;
